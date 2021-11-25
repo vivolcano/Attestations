@@ -19,6 +19,8 @@ class UsersRepositoryFileImplTest {
 
         final User result = repositoryFile.findById(1);
 
+        Assertions.assertEquals(expended, result);
+
 
     }
 
